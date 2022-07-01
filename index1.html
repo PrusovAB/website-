@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Cleaning</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="css/style2.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body >
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header-block">
+					<div class="header-logo">
+						<img src="img/1.svg" alt="no picture">
+						
+					</div>
+					<div class="header-burger">
+							<span></span>
+						</div>
+					<nav class="menu">
+						<ul class="menu-items">
+							<li class="menu-list"><a href="#" class="menu-link">Home</a></li>
+							<li class="menu-list"><a href="#" class="menu-link">About</a></li>
+							<li class="menu-list"><a href="#" class="menu-link">Services</a></li>
+							<li class="menu-list"><a href="#" class="menu-link">Pages</a></li>
+							<li class="menu-list"><a href="#" class="menu-link">Contact</a></li>
+						</ul>
+					</nav>
+
+					<div class="menu-btns">
+						<div class="meni-btnOne">Cart <button class="sum">(0)</button></div>
+						<div class="meni-btnTwo"><button class="btn">Get</button></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<manin class="main">
+			<section class="quality-cleaning">
+				<div class="quality-cleaning-body">
+					<div class="quality-cleaning-body-content">
+						<div class="body-content-titlle">Quality cleaning for your home</div>
+						<div class="body-content-text">Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</div>
+						<div class="body-content-navigator">
+							<div class="content-navigator-btn"><button class="btn">Get</button></div>
+							<div class="content-navigator-img"><img src="img/2.svg" alt="telefon" onclick="show('block')"></div>
+							<div class="content-navigator-contact">
+								<div class="navigator-contact-call">Call us now</div>
+								<div class="navigator-contact-telefon">(414) 567 - 2109</div>
+							</div>
+						</div>
+					</div>
+					<div class="quality-cleaning-body-img">
+						<img src="img/3.svg" alt="picture">
+					</div>
+				</div>
+				<div class="telefon" id = "modalForm">
+					<div class="vk"><img src="img/5.svg" alt="" class="vk1"><a href="tel:(414) 567 - 2109" class = "tel" >(414) 567 - 2109</a></div>
+					<div class="teleug"><img src="img/6.svg" alt="" class="vk2"><a href="tel:(414) 567 - 2110" class = "tel" >(414) 567 - 2110</a></div>
+					<div class="vaiber"><img src="img/7.svg" alt="" class="vk3"><a href="tel:(414) 567 - 2111" class = "tel" >(414) 567 - 2111</a></div>
+				</div>
+				<div id="filter" onclick="show('none')"></div>
+			</section>
+			<section class="how-service">
+				<div class="how-service-body">
+					<div class="service-body-tittle">
+						<div class="body-tittle tit">How our service works?</div>
+						<div class="body-text text">Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque nisi felis non ultrices massa id egestas quam velit pretium nu.</div>
+					</div>
+					<div class="service-body-choice">
+						<div class="body-choiceONe one activ">
+							<div class="body-choiceONe-img"><img src="img/8.svg" alt="calendar"></div>
+							<div class="body-choiceONe-titlle tit">1. Schedule online</div>
+							<div class="body-choiceONe-text text">Sagittis nibh scelerisque vitae egetolment vulputate sem elementum sed n.</div>
+						</div>
+						<div class="body-choiceTwo one">
+							<div class="body-choiceTwo-img"><img src="img/9.svg" alt="pay"></div>
+							<div class="body-choiceTwo-titlle tit">2. Pay online easily</div>
+							<div class="body-choiceTwo-text text">Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc.</div>
+						</div>
+						<div class="body-choiceThere one">
+							<div class="body-choiceThere-img"><img src="img/10.svg" alt="clining"></div>
+							<div class="body-choiceThere-titlle tit">3. Get your house cleaned</div>
+							<div class="body-choiceThere-text text">Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus eleifend.</div>
+						</div>
+					</div>
+					<div class="service-body-btn">
+						<div class="body-btn">
+							<div  id = 'btn-activ' class="btnOne btn ">Get a free quote</div>
+							<div class="btnTwo btn">Explore services</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="have-cleaning">
+				<div class="have-cleaning-body">
+					<div class="cleaning-body-title tit">Our cleaning services have no comparison</div>
+					<div class="cleaning-body-text text">Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris lectus vitae cras viverra gravida sapien.</div>
+					<div class="useClients">
+						<div class="clients">
+							<div class="heatsImg"><img src="img/11.svg" alt="client"></div>
+							<div class="clients-body">
+								<div class="clients-body-titlle">clients</div>
+								<div class="clients-body-text">3,480+</div>
+							</div>
+						</div>
+						<div class="Jobs">
+							<div class="JobsImg"><img src="img/12.svg" alt="jobs"></div>
+							<div class="Jobs-body">
+								<div class="Jobs-body-titlle">Jobs done</div>
+								<div class="Jobs-body-text">12,540+</div>
+							</div>
+						</div>
+
+						<div class="Employees">
+							<div class="EmployeesImg"><img src="img/13.svg" alt="Employees"></div>
+							<div class="Employees-body">
+								<div class="Employees-body-titlle">Employees</div>
+								<div class="Employees-body-text">100+</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="video">
+						<iframe width="1020" height="570" src="https://www.youtube.com/embed/SaYOCITaX-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					</div>
+				</div>
+			</section>
+			<section class="take-look">
+				<div class="take-look-body">
+					<div class="look-body-titlle">
+						<div class="look-titlle tit">Take a look at our professional services</div>
+						<div class="look-button"><button class = 'btnTwo btn'>Explore services</button></div>
+					</div>
+					<div class="look-professional-services">
+						<div class="professional-services">
+							<div class="imgimg"><img src="img/16.svg" alt="house"></div>
+							<div class="servicesTitlle tit">House cleaning</div>
+							<div class="servicesText text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</div>
+						</div>
+						<div class="professional-services">
+							<div class="imgimg"><img src="img/14.svg" alt="office"></div>
+							<div class="servicesTitlle tit">Office cleaning</div>
+							<div class="servicesText text">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Nisi veniam aliquid, ea possimus dolorem! Laboriosam.</div>
+						</div>
+						<div class="professional-services">
+							<div class="imgimg"><img src="img/15.svg" alt="inductrial"></div>
+							<div class="servicesTitlle tit">Industrial cleaning</div>
+							<div class="servicesText text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatem?</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</manin>
+
+	</div>
+
+
+
+			<script src="js/script.js"></script>
+</body>
+</html>
